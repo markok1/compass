@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Compass</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+
+    <!-- animation -->
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.4/waypoints.min.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.bootcss.com/animate.css/3.1.0/animate.css"
+    />
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar" data-offset="100">
+    <!-- 	<div class="topnav container-fluid">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4">
+					<p class="contacttext"><a href="">888.555.1234</a> <span>|</span> <a
+							href="">compass@pipevine.co</a></p>
+				</div>
+				<div class="col-lg-4">
+					<p class="agetoff">Get 10% off if you order by 12.29.19</p>
+				</div>
+				<div class="col-lg-4">
+					<p class="support"><a href="help_center.html">Help</a> <a href="">Contact</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<nav class="navbar navbar-expand-lg">
+		<div class="container">
+			<a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt=""> </a>
+			
+			<a href="" class="cartphone cartphone2 forphone"><img src="assets/img/cart.png" alt=""></a>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<div class="forphone beginyourfirstprojectphone">
+					<a href="">BEGIN YOUR FIRST PROJECT</a>
+				</div>
+				<ul class="navbar-nav mr-auto">
+					
+				</ul>
+				<ul class="navbar-nav mr-right fordesktop">
+					<li class="nav-item">
+						
+                <a class="nav-link right_cart" href="account_page.html"
+                  >Hi John!
+                </a>
+                <a class="nav-link right_cart" href="order_cart.html"
+                  ><img src="assets/img/cart.png" alt=""
+                /></a>
+
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav> -->
+
+    <!-- <div class="container-fluid mailing_details_hero">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="cont">
+					<ul>                  
+						<li><a href="">REVIEW</a></li>
+						<li><a href="" class="active">SHIPPING</a></li>
+						<li><a href="">CART</a></li>
+						<li><a href="">PAYMENT</a></li>
+					</ul>
+					<h1>Shipping Details</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+</div> -->
+
+    <div class="container-fluid mailing_details_cont">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="cont">
+              <div class="row">
+                <div class="col-lg-7">
+                  <div class="leftside">
+                    <div class="c_tabs">
+                      <!-- Nav tabs -->
+
+                      <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                          <a
+                            class="nav-link active"
+                            data-toggle="tab"
+                            href="#show1"
+                            >LISTS</a
+                          >
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" data-toggle="tab" href="#show2"
+                            >AROUND PROPERTY</a
+                          >
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" data-toggle="tab" href="#show3"
+                            >UPLOAD</a
+                          >
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" data-toggle="tab" href="#show4"
+                            >MAP SEARCH</a
+                          >
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" data-toggle="tab" href="#show5"
+                            >DO NOT MAIL</a
+                          >
+                        </li>
+                      </ul>
+
+                      <!-- Tab panes -->
+                      <div class="tab-content">
+                        <div id="show1" class="container tab-pane active">
+                          <br />
+                          <div class="continside">
+                            <h2>Choose a list from my account</h2>
+
+                            <div class="list_c">
+                              <div class="rowoflist">
+                                <p><span>LIST NAME</span></p>
+                                <div class="last2col">
+                                  <p><span>QTY</span></p>
+                                </div>
+                                <div class="lastcol">
+                                  <p><span>SELECT ALL</span></p>
+                                </div>
+                              </div>
+                              <div class="rowoflist">
+                                <p>Atlantic Plumbing 2030 80th</p>
+                                <div class="last2col"><p>2022</p></div>
+                                <div class="lastcol">
+                                  <div class="checkboxdef checkboxcustom">
+                                    <label class="containercheckbox">
+                                      <input type="checkbox" checked />
+                                      <span class="checkmark"></span>
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="rowoflist">
+                                <p>Around Office List</p>
+                                <div class="last2col"><p>2022</p></div>
+                                <div class="lastcol">
+                                  <div class="checkboxdef checkboxcustom">
+                                    <label class="containercheckbox">
+                                      <input type="checkbox" />
+                                      <span class="checkmark"></span>
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="rowoflist">
+                                <p>Monticello Park</p>
+                                <div class="last2col"><p>2022</p></div>
+                                <div class="lastcol">
+                                  <div class="checkboxdef checkboxcustom">
+                                    <label class="containercheckbox">
+                                      <input type="checkbox" />
+                                      <span class="checkmark"></span>
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="rowoflist">
+                                <p>Test List</p>
+                                <div class="last2col"><p>2022</p></div>
+                                <div class="lastcol">
+                                  <div class="checkboxdef checkboxcustom">
+                                    <label class="containercheckbox">
+                                      <input type="checkbox" />
+                                      <span class="checkmark"></span>
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="rowoflist">
+                                <p>Atlantic Plumbing 2030 80th</p>
+                                <div class="last2col"><p>2022</p></div>
+                                <div class="lastcol">
+                                  <div class="checkboxdef checkboxcustom">
+                                    <label class="containercheckbox">
+                                      <input type="checkbox" />
+                                      <span class="checkmark"></span>
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="rowoflist">
+                                <p>1401 Church St</p>
+                                <div class="last2col"><p>2022</p></div>
+                                <div class="lastcol">
+                                  <div class="checkboxdef checkboxcustom">
+                                    <label class="containercheckbox">
+                                      <input type="checkbox" />
+                                      <span class="checkmark"></span>
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="rowoflist">
+                                <p>Around Office List</p>
+                                <div class="last2col"><p>2022</p></div>
+                                <div class="lastcol">
+                                  <div class="checkboxdef checkboxcustom">
+                                    <label class="containercheckbox">
+                                      <input type="checkbox" />
+                                      <span class="checkmark"></span>
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="rowoflist">
+                                <p>Monticello Park</p>
+                                <div class="last2col"><p>2022</p></div>
+                                <div class="lastcol">
+                                  <div class="checkboxdef checkboxcustom">
+                                    <label class="containercheckbox">
+                                      <input type="checkbox" />
+                                      <span class="checkmark"></span>
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="rowoflist">
+                                <p>Test List</p>
+                                <div class="last2col"><p>2022</p></div>
+                                <div class="lastcol">
+                                  <div class="checkboxdef checkboxcustom">
+                                    <label class="containercheckbox">
+                                      <input type="checkbox" />
+                                      <span class="checkmark"></span>
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="mainbtn">
+                                <a href="">ADD LISTS</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div id="show2" class="container tab-pane fade">
+                          <br />
+                          <div class="continside">
+                            <h2>Create a list around an address</h2>
+
+                            <div class="searchadd">
+                              <div class="placeforinput">
+                                <h3>SEARCH ADDRESS</h3>
+                                <input type="text" placeholder="" />
+                                <p>
+                                  <span>Tip:</span> Begin entering your desired
+                                  address, we’ll start matching your address
+                                  automatically.
+                                </p>
+                              </div>
+                            </div>
+
+                            <h4 class="subtit">We found the following lists</h4>
+
+                            <div class="list_c">
+                              <div class="rowoflist">
+                                <p><span>LIST NAME</span></p>
+                                <div class="last2col">
+                                  <p><span>QTY</span></p>
+                                </div>
+                                <div class="lastcol">
+                                  <p><span>SELECT ALL</span></p>
+                                </div>
+                              </div>
+                              <div class="rowoflist">
+                                <p>Atlantic Plumbing 2030 80th</p>
+                                <div class="last2col"><p>2022</p></div>
+                                <div class="lastcol">
+                                  <div class="checkboxdef checkboxcustom">
+                                    <label class="containercheckbox">
+                                      <input type="checkbox" checked />
+                                      <span class="checkmark"></span>
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="rowoflist">
+                                <p>Around Office List</p>
+                                <div class="last2col"><p>2022</p></div>
+                                <div class="lastcol">
+                                  <div class="checkboxdef checkboxcustom">
+                                    <label class="containercheckbox">
+                                      <input type="checkbox" />
+                                      <span class="checkmark"></span>
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="rowoflist">
+                                <p>Monticello Park</p>
+                                <div class="last2col"><p>2022</p></div>
+                                <div class="lastcol">
+                                  <div class="checkboxdef checkboxcustom">
+                                    <label class="containercheckbox">
+                                      <input type="checkbox" />
+                                      <span class="checkmark"></span>
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="rowoflist">
+                                <p>Test List</p>
+                                <div class="last2col"><p>2022</p></div>
+                                <div class="lastcol">
+                                  <div class="checkboxdef checkboxcustom">
+                                    <label class="containercheckbox">
+                                      <input type="checkbox" />
+                                      <span class="checkmark"></span>
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="rowoflist">
+                                <p>Atlantic Plumbing 2030 80th</p>
+                                <div class="last2col"><p>2022</p></div>
+                                <div class="lastcol">
+                                  <div class="checkboxdef checkboxcustom">
+                                    <label class="containercheckbox">
+                                      <input type="checkbox" />
+                                      <span class="checkmark"></span>
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="rowoflist">
+                                <p>1401 Church St</p>
+                                <div class="last2col"><p>2022</p></div>
+                                <div class="lastcol">
+                                  <div class="checkboxdef checkboxcustom">
+                                    <label class="containercheckbox">
+                                      <input type="checkbox" />
+                                      <span class="checkmark"></span>
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="rowoflist">
+                                <p>Around Office List</p>
+                                <div class="last2col"><p>2022</p></div>
+                                <div class="lastcol">
+                                  <div class="checkboxdef checkboxcustom">
+                                    <label class="containercheckbox">
+                                      <input type="checkbox" />
+                                      <span class="checkmark"></span>
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="rowoflist">
+                                <p>Monticello Park</p>
+                                <div class="last2col"><p>2022</p></div>
+                                <div class="lastcol">
+                                  <div class="checkboxdef checkboxcustom">
+                                    <label class="containercheckbox">
+                                      <input type="checkbox" />
+                                      <span class="checkmark"></span>
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="rowoflist">
+                                <p>Test List</p>
+                                <div class="last2col"><p>2022</p></div>
+                                <div class="lastcol">
+                                  <div class="checkboxdef checkboxcustom">
+                                    <label class="containercheckbox">
+                                      <input type="checkbox" />
+                                      <span class="checkmark"></span>
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="mainbtn">
+                                <a href="">ADD LISTS</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div id="show3" class="container tab-pane fade">
+                          <br />
+                          <div class="continside">
+                            <h2>Upload your own list</h2>
+
+                            <div class="chooseafile">
+                              <p>
+                                <img
+                                  src="assets/img/chosefile.png"
+                                  alt=""
+                                />CHOOSE A FILE
+                              </p>
+                              <input type="file" id="myfile" name="myfile" />
+                            </div>
+                            <p class="tip">
+                              <span>Tip:</span> Please use .csv, .xlsx, .xlsx
+                              files only
+                            </p>
+                            <div class="mainbtn">
+                              <a href="">UPLOAD LIST</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div id="show4" class="container tab-pane fade">
+                          <br />
+                          <div class="continside">
+                            <h2>Create a list around an address</h2>
+
+                            <div class="searchadd">
+                              <div class="placeforinput">
+                                <h3>SEARCH ADDRESS</h3>
+                                <input type="text" placeholder="" />
+                                <p>
+                                  <span>Tip:</span> Begin entering your desired
+                                  address, we’ll start matching your address
+                                  automatically.
+                                </p>
+                              </div>
+                            </div>
+
+                            <div class="mapplace">
+                              <img
+                                src="assets/img/mapplacehodlder.png"
+                                alt=""
+                              />
+                            </div>
+
+                            <ul class="mapcheckboxes">
+                              <li>
+                                <div class="checkboxdef">
+                                  <label class="containercheckbox"
+                                    >Condos
+                                    <input type="checkbox" />
+                                    <span class="checkmark"></span>
+                                  </label>
+                                </div>
+                              </li>
+                              <li>
+                                <div class="checkboxdef">
+                                  <label class="containercheckbox"
+                                    >Single Family
+                                    <input type="checkbox" />
+                                    <span class="checkmark"></span>
+                                  </label>
+                                </div>
+                              </li>
+                              <li>
+                                <div class="checkboxdef">
+                                  <label class="containercheckbox"
+                                    >Townhomes
+                                    <input type="checkbox" />
+                                    <span class="checkmark"></span>
+                                  </label>
+                                </div>
+                              </li>
+                            </ul>
+
+                            <div class="mainbtn">
+                              <a href="">VIEW RESULTS</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div id="show5" class="container tab-pane fade">
+                          <br />
+                          <div class="continside">
+                            <h2>Upload a do not mail list</h2>
+
+                            <div class="chooseafile">
+                              <p>
+                                <img
+                                  src="assets/img/chosefile.png"
+                                  alt=""
+                                />CHOOSE A FILE
+                              </p>
+                              <input type="file" id="myfile" name="myfile" />
+                            </div>
+
+                            <p class="tip">
+                              <span>Tip:</span> Please use .csv, .xlsx, .xlsx
+                              files only
+                            </p>
+                            <p class="normalp">
+                              You can use this section to upload a list of
+                              addresses that you do not want to send any of your
+                              mailers to.
+                              <br /><br />
+                              All addresses in the list uploaded in this section
+                              will automatically be removed from any mailing
+                              list you generate/upload for all your jobs going
+                              forward.
+                              <br /><br />
+                              Please note that if you upload a list here, you
+                              cannot apply this to specific jobs. This list will
+                              be filtered out of any jobs you create using this
+                              system.
+                            </p>
+
+                            <div class="mainbtn">
+                              <a href="">UPLOAD LIST</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-5">
+                  <div class="rightside h-100">
+                    <div class="rightsidecont h-100">
+                      <h2>Mailing Summary</h2>
+                      <p class="emptysp">
+                        Begin adding lists to see your summary
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 	<div class="navfooter container-fluid">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<img src="assets/img/footerlogo.png" class="footerlogo" alt="">
+
+					<div class="listmenu">
+						<div class="customcol5">
+							<p><a href="">Products</a></p>
+							<p><a href="">Print</a></p>
+							<p><a href="">Digital</a></p>
+							<p><a href="">Promotional</a></p>
+							<p><a href="">Signs</a></p>
+						</div>
+						<div class="customcol5">
+							<p><a href="">Projects</a></p>
+							<p><a href="">Saved Projects</a></p>
+							<p><a href="">Reorder</a></p>
+							<p><a href="">History</a></p>
+						</div>
+						<div class="customcol5">
+							<p><a href="">Account</a></p>
+							<p><a href="">Personal Information</a></p>
+							<p><a href="">Address Book</a></p>
+							<p><a href="">Payment Options</a></p>
+							<p><a href="">Properties</a></p>
+							<p><a href="">Lists</a></p>
+							<p><a href="">Images</a></p>
+						</div>
+						<div class="customcol5">
+							<p><a href="">Help</a></p>
+							<p><a href="">FAQs</a></p>
+							<p><a href="">Projects</a></p>
+							<p><a href="">Design</a></p>
+							<p><a href="">Customize</a></p>
+						</div>
+						<div class="customcol5">
+							<p><a href="">Contact</a></p>
+							<p><span><a href="">888.555.1234</a><a href="">compass@pipevine.co</a></span></p>
+							<p>8021-A Queenair Drive Gaithersburg, MD 20879</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> -->
+
+    <!-- 	<div class="footer container-fluid">
+		<p>Copyright © 2020— Pipevine</p>
+	</div> -->
+
+    <!-- 	<div class="custompopup">
+		<img src="assets/img/c_popupbg.png" class="c_popupbg" alt="">
+		<div class="container">
+			<div class="cont">
+				<h2>Let’s start your next project</h2>
+				<h4>WOULD YOU LIKE TO?</h4>
+				<a href="" class="closebtn"><img src="assets/img/close.png" alt=""></a>
+				<div class="row">
+					<div class="col-md-12">
+						<ul class="nav nav-tabs" role="tablist">
+							<li class="nav-item">
+								<a class="nav-link active" data-toggle="tab" href="#home">Print Only</a><span
+									class="or">or</span>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" data-toggle="tab" href="#menu1">Print & Mail</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="tab-content">
+						<div id="home" class="container tab-pane active"><br>
+							<form action="">
+								<div class="inrow3">
+									<div class="row">
+										<div class="col-md-4">
+											<h3>PROUDCT TYPE</h3>
+											<select>
+												<option value="">Select Product</option>
+												<option value="">1</option>
+												<option value="">2</option>
+												<option value="">3</option>
+											</select>
+										</div>
+										<div class="col-md-4">
+											<h3>SIZE</h3>
+											<select>
+												<option value="">Pick your size</option>
+												<option value="">1</option>
+												<option value="">2</option>
+												<option value="">3</option>
+											</select>
+										</div>
+										<div class="col-md-4">
+											<h3>PAPER</h3>
+											<select>
+												<option value="">Select Paper</option>
+												<option value="">1</option>
+												<option value="">2</option>
+												<option value="">3</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="inrow3">
+									<div class="row">
+										<div class="col-md-4">
+											<h3>QUANTITY</h3>
+											<select>
+												<option value="">Select Quantity</option>
+												<option value="">1</option>
+												<option value="">2</option>
+												<option value="">3</option>
+											</select>
+										</div>
+										<div class="col-md-4">
+											<h3>COATING</h3>
+											<select>
+												<option value="">Select Coating</option>
+												<option value="">1</option>
+												<option value="">2</option>
+												<option value="">3</option>
+											</select>
+										</div>
+										<div class="col-md-4">
+											<h3>NUMBER OF SIDES</h3>
+											<select>
+												<option value="">Select Number</option>
+												<option value="">1</option>
+												<option value="">2</option>
+												<option value="">3</option>
+											</select>
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>
+						<div id="menu1" class="container tab-pane fade"><br>
+							<form action="">
+								<div class="inrow3">
+									<div class="row">
+										<div class="col-md-4">
+											<h3>PROUDCT TYPE</h3>
+											<select>
+												<option value="">Select Product</option>
+												<option value="">1</option>
+												<option value="">2</option>
+												<option value="">3</option>
+											</select>
+										</div>
+										<div class="col-md-4">
+											<h3>SIZE</h3>
+											<select>
+												<option value="">Pick your size</option>
+												<option value="">1</option>
+												<option value="">2</option>
+												<option value="">3</option>
+											</select>
+										</div>
+										<div class="col-md-4">
+											<h3>PAPER</h3>
+											<select>
+												<option value="">Select Paper</option>
+												<option value="">1</option>
+												<option value="">2</option>
+												<option value="">3</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="inrow3">
+									<div class="row">
+										<div class="col-md-4">
+											<h3>QUANTITY</h3>
+											<select>
+												<option value="">Select Quantity</option>
+												<option value="">1</option>
+												<option value="">2</option>
+												<option value="">3</option>
+											</select>
+										</div>
+										<div class="col-md-4">
+											<h3>COATING</h3>
+											<select>
+												<option value="">Select Coating</option>
+												<option value="">1</option>
+												<option value="">2</option>
+												<option value="">3</option>
+											</select>
+										</div>
+										<div class="col-md-4">
+											<h3>NUMBER OF SIDES</h3>
+											<select>
+												<option value="">Select Number</option>
+												<option value="">1</option>
+												<option value="">2</option>
+												<option value="">3</option>
+											</select>
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div> -->
+    <!-- 
+		<div class="bottompart">
+			<div class="container">
+				<div class="estamate">
+					<div class="estprice">
+						<h2>ESTIMATE</h2>
+						<h1>$58.85</h1>
+						<div class="btnb"><a href="">BEGIN</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> -->
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
